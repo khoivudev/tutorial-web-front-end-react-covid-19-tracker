@@ -47,3 +47,20 @@ npm start
 # Deployment
 
 Domain: Firebase
+
+```js
+npm i -g firebase-tools
+firebase login
+firebase init
+```
+
+- Hosting
+- Use an existing project
+- build singer page app
+
+````js
+npm run build
+firebase deploy
+```
+
+````
