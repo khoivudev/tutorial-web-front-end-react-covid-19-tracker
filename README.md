@@ -49,6 +49,7 @@ npm start
 Domain: Firebase
 
 ```js
+npm run build
 npm i -g firebase-tools
 firebase login
 firebase init
@@ -57,10 +58,9 @@ firebase init
 - Hosting
 - Use an existing project
 - build singer page app
+- Change hosting in firebase.json -> build folder
 
 ````js
-npm run build
 firebase deploy
 ```
-
 ````
